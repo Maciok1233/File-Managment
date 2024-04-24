@@ -2,5 +2,5 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 
 }
 else {
-  window.location.href = "22.html";
+  window.location.href = "index.html";
 }
