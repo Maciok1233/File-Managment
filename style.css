@@ -1,0 +1,136 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.animation {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-play-state: paused;
+  pointer-events: none;
+}
+
+@keyframes example {
+  0% {
+    opacity: 0.0;
+}
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+  100% {
+    opacity: 1.0;
+  }
+}
+
+{}
+
+.content {
+  position: relative;
+  left: 1%;
+  color: black;
+  text-shadow: 2px 2px 5px red;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.box {
+  width: 25%;
+  height: 70px;
+  background-color: #5e5a63;
+  border-radius: 25px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  font-size: 25px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.box2 {
+  width: 25%;
+  height: 70px;
+  background-color: #5e5a63;
+  border-radius: 25px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  font-size: 25px;
+  cursor: pointer;
+  pointer-events: auto;
+  user-select: none;
+}
+
+p {
+  position: relative;
+  top: 0px;
+  left: 3%;
+  font-weight: bold;
+  font-family: Fredoka One;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+header{
+position: sticky;
+height: 85px;
+background:#262626;
+padding:0 50px;
+float:up;
+}
+.header{
+height:60px;
+background:#262626;
+padding:0 50px;
+float:up;
+}
+nav{
+width:68%;
+float:right;
+}
+nav ul{
+list-style:none;
+float:right;
+}
+nav ul li{
+display: inline-block;
+}
+nav ul li a{
+text-decoration: none;
+color:#fff;
+font-family:sans-serif;
+font-weight:bold;
+margin:0 10px;
+line-height:60px;
+text-transform:uppercase;
+cursor: pointer;
+}
+.logo{
+position: relative;
+top:10px;
+width:30%;
+float:left;
+color:#fff;
+font-wieght:bold;
+text-transform:uppercase;
+line-height:60px;
+font-size:35px;
+font-family:sans-serif;
+}
+
+#LOG-OUT {
+  border: 10px;
+  boder-radius: 5px;
+  border-color: whitesmoke;
+}

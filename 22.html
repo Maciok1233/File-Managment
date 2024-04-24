@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="folder1.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      
+      .container {
+          display: flex;
+      }
+
+      #searchbar {
+          box-sizing: border-box;
+      }
+
+      #list {
+          list-style: none;
+          padding: 0;
+          margin: auto;
+      }
+
+      .animals {
+          border-bottom: 0px solid #ccc;
+          animation: fadeIn 0.5s ease-in-out;
+      }
+
+      .animals:last-child {
+          border-bottom: none;
+      }
+
+      a {color: black;}
+      
+
+      @keyframes fadeIn {
+          from {
+              opacity: 0;
+              transform: translateY(-10px);
+          }
+
+          to {
+              opacity: 1;
+              transform: translateY(0);
+          }
+      }
+      
+      body {margin: 0;}
+      
+        .myDiv {
+            transition: opacity 0.5s ease-in-out;
+            opacity: 1;
+        }
+
+      #image {
+        position: relative;
+        top: 15px;
+        }
+      img {
+        cursor: url(search.png);
+      }
+      input {
+        position: absolute;
+      }
+      
+      header{
+      position: fixed;
+        inset: 0;
+      z-index: 999;
+      height: 85px;
+      background:#262626;
+      padding:0 50px;
+      float:up;
+      }
+      .header{
+      height:60px;
+      background:#262626;
+      padding:0 50px;
+      float:up;
+      }
+      nav{
+      width:68%;
+      float:right;
+      }
+      nav ul{
+      list-style:none;
+      float:right;
+      }
+      nav ul li{
+      display: inline-block;
+      }
+      nav ul li a{
+      text-decoration: none;
+      color:#fff;
+      font-family:sans-serif;
+      font-weight:bold;
+      margin:0 10px;
+      line-height:60px;
+      text-transform:uppercase;
+      }
+      .logo{
+      position: relative;
+      top:10px;
+      width:30%;
+      float:left;
+      color:#fff;
+      font-wieght:bold;
+      text-transform:uppercase;
+      line-height:60px;
+      font-size:35px;
+      font-family:sans-serif;
+      }
+
+      #Text-inside {
+      position: relative;
+      list-style-type: none;
+      left: 1.5%;
+      }
+    </style>
+    <title>File Managment</title>
+</head>
+<body>
+  <header>
+  <div class="logo">Logo</div>
+
+  <nav>
+  <ul>
+  <li><img  ondblclick="checkCookie()" id="image" src="search.png" onclick="function2()" height="40px"><input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Search..."></li>
+  <li><a>Home</a></li>
+  <li><a href=".html">About</a></li>
+  <li><a href=".html">Contact</a></li>
+  <li id="LOG-OUT"><a href="" onclick="deleteCookie()">Log Out</a></li>
+  </ul>
+  </nav>
+  </header>
+
+
+
+
+
+
+
+
+  
+<br><br><br><br><br><br>
+
+    <div class="box2", onclick="myFunction2()", id="div2">
+            <img src="folder2.png" alt="Folder" style="width: 70px; height: 70px;">
+        </a>
+      <p id="main-button">Unlock files</p>
+    </div>
+
+
+  <div id="div" class="animation">
+    <ul id='list'>
+  
+        <a class="animals"><br>
+        <div class="box">   
+          <div class="content", id="d2"><div id="1" href="byg" class="myDiv" download><li id="Text-inside">Sample Text 1</li></div></div>
+        </div>  
+         
+        </a>
+  
+        <a class="animals"><br>
+        <div class="box">
+         <div class="content", id="d2"><div id="2" href=".zip" class="myDiv" download><li id="Text-inside">Sample Text 2</li></div></div>
+        </div>  
+       
+       </a>
+  
+        <a class="animals"><br>
+        <div class="box">
+          <div class="content", id="d2"><div id="3" href=".png" class="myDiv" download><li id="Text-inside">Sample Text 3</li></div></div>
+        </div>  
+
+       </a>
+
+        <a class="animals"><br>
+        <div class="box">
+          <div class="content", id="d2"><div id="4" href=".png" class="myDiv" download><li id="Text-inside">Sample Text 4</li></div></div>
+        </div>  
+
+       </a>
+
+        <a class="animals"><br>
+        <div class="box">
+          <div class="content", id="d2"><div id="5" href=".jpg" class="myDiv" download><li id="Text-inside">Sample Text 5</li></div></div>
+        </div>  
+
+       </a>
+    </ul>
+  </div>
+  
+
+
+<script src="script.js"></script>
+<script src="script 2.js"></script>
+<script src="script 3.js"></script>
+<script src="script 4.js"></script>
+<script src="script 5.js"></script>
+</body>
+</html>
