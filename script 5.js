@@ -10,6 +10,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   document.getElementById("CONTACT").style.position = "absolute";
   document.getElementById("HOME").innerText = "";
   document.getElementById("HOME").style.position = "absolute";
+  document.getElementById('LOGO').style.setProperty('font-size', '20px');
   let elementinput = document.getElementById("searchbar");
   elementinput.setAttribute("size", "1");
 }
