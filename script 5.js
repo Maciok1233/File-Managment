@@ -7,7 +7,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   document.getElementById("exp").style.position = "absolute";
   document.getElementById("HOME").innerText = "";
   document.getElementById("HOME").style.position = "absolute";
-
-}
   let elementinput = document.getElementById("searchbar");
   elementinput.setAttribute("size", "4");
+}
+
