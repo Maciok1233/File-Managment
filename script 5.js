@@ -11,6 +11,6 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   document.getElementById("HOME").innerText = "";
   document.getElementById("HOME").style.position = "absolute";
   let elementinput = document.getElementById("searchbar");
-  elementinput.setAttribute("size", "2.5");
+  elementinput.setAttribute("size", "1");
 }
 
