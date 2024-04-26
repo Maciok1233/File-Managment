@@ -80,6 +80,7 @@ function exp_on() {
                         obiekt.style.opacity = 1; // Set opacity back to 1 after changing text
 
                       if (bug > 1) {
+                          alert("Experimental Software crash😥")
                           location.reload();
                       }
                       
