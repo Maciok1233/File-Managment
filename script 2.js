@@ -40,14 +40,7 @@ function checkCookie() {
      document.getElementById("div2").style.pointerEvents = "none";
      document.getElementById('body1').style.overflow = "visible";
      function1();
-    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-      // true for mobile device
-     document.getElementById('div2').style.width = '200px';
-     document.getElementById("main-button").innerHTML = "🔓";
-    }
-    else {
       document.getElementById("main-button").innerHTML = "Files Unlocked 🔓";
-    }
   } 
   
   else {
