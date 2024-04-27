@@ -31,10 +31,6 @@ function deleteCookie() {
 
 
 function checkCookie() {
-      if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-      // true for mobile device
-       document.getElementById("main-button").innerHTML = "🔐";
-    }
   let user = getCookie("username");
   if (user != "") {
      user = "2";
@@ -46,6 +42,7 @@ function checkCookie() {
      function1();
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
       // true for mobile device
+     document.getElementById('div2').style.width = '200px';
      document.getElementById("main-button").innerHTML = "🔓";
     }
     else {
