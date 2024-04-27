@@ -42,7 +42,7 @@ function checkCookie() {
      function1();
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
       // true for mobile device
-     document.getElementById("main-button").innerHTML = "🔐";
+     document.getElementById("main-button").innerHTML = "🔓";
     }
     else {
       document.getElementById("main-button").innerHTML = "Files Unlocked 🔓";
