@@ -1,3 +1,8 @@
+
+
+
+
+
 function setCookie(cname, cvalue, exdays) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
@@ -31,6 +36,10 @@ function deleteCookie() {
 
 
 function checkCookie() {
+      if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+      // true for mobile device
+       document.getElementById("main-button").innerHTML = "🔐";
+    }
   let user = getCookie("username");
   if (user != "") {
      user = "2";
