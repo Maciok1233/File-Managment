@@ -17,7 +17,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   document.getElementById('div2').style.width = '320px';
   document.getElementById("Mark1").innerText = "";
   document.getElementById("Mark2").innerText = "";
-  document.getElementById("logo1").style.top = "13px";
+  document.getElementById("LOGO").style.top = "13px";
 
   const boxes = document.querySelectorAll('#box');
   for (let i = 0; i < boxes.length; i++) { boxes[i].style.width = '320px'; }
