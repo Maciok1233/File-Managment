@@ -137,7 +137,9 @@ font-family:sans-serif;
 }
 
 #Mark1 {
-  position: absolute;
+  position: fixed;
+  inset: 0;
+  z-index: 999;
   top: 50%;
   right: 10px;
   rotate: -45deg;
@@ -146,7 +148,9 @@ font-family:sans-serif;
 }
 
 #Mark2 {
-  position: absolute;
+  position: fixed;
+  inset: 0;
+  z-index: 999;
   top: 50%;
   left: 10px;
   rotate: -45deg;
