@@ -1,3 +1,5 @@
+phonecheck();
+function phonecheck() {
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
   // true for mobile device
   document.getElementById("main-button").innerHTML = "🔐";
@@ -18,4 +20,5 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   const boxes = document.querySelectorAll('#box');
   for (let i = 0; i < boxes.length; i++) { boxes[i].style.width = '200px'; }
 
+ }
 }
