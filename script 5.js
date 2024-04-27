@@ -10,7 +10,8 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   document.getElementById("CONTACT").style.position = "absolute";
   document.getElementById("HOME").innerText = "";
   document.getElementById("HOME").style.position = "absolute";
-  let elementinput = document.getElementById("searchbar");
-  elementinput.setAttribute("size", "1");
+  document.getElementById("searchbar").setAttribute("size", "1");
+  document.getElementById("phone-adjustment").style.height = "20px";
+  document.getElementById("LOG-OUT").style.fontSize = "10px";
+  document.getElementById("image").style.height = "30px";
 }
-
