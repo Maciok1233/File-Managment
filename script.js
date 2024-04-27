@@ -16,15 +16,7 @@ function myFunction2() {
      function1();
      Test2 = 1;  
      document.getElementById('body1').style.overflow = "visible";   
-    
-    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-      // true for mobile device
-     document.getElementById('div2').style.width = '200px';
-     document.getElementById("main-button").innerHTML = "🔓";
-    }
-    else {
-      document.getElementById("main-button").innerHTML = "Files Unlocked 🔓";
-    }
+     document.getElementById("main-button").innerHTML = "Files Unlocked 🔓";
   }
   else if (password = " " || "") {
      }
