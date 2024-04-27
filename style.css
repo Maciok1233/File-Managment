@@ -136,8 +136,20 @@ font-size:35px;
 font-family:sans-serif;
 }
 
-#LOG-OUT {
-  border: 10px;
-  boder-radius: 5px;
-  border-color: whitesmoke;
+#Mark1 {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  rotate: -45deg;
+  font-size: 120px;
+  color: white;
+}
+
+#Mark2 {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  rotate: -45deg;
+  font-size: 120px;
+  color: white;
 }
