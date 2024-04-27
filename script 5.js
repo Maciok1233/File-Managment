@@ -17,5 +17,5 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   document.getElementById("image").style.height = "34px";
   const boxes = document.querySelectorAll('#box');
   for (let i = 0; i < boxes.length; i++) { boxes[i].style.width = '200px'; }
-  document.getElementById('box2').style.width = '320px'; }
+  document.getElementById('div2').style.width = '320px'; }
  }
