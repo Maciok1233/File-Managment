@@ -18,5 +18,5 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   document.getElementById('div2').style.width = '320px';
   
   const boxes = document.querySelectorAll('#box');
-  for (let i = 0; i < boxes.length; i++) { boxes[i].style.width = '200px'; }
+  for (let i = 0; i < boxes.length; i++) { boxes[i].style.width = '320px'; }
  }
