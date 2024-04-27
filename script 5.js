@@ -15,5 +15,5 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   document.getElementById("LOG-OUT").style.fontSize = "13px";
   document.getElementById("LOG-OUT").style.top = "2px";
   document.getElementById("image").style.height = "34px";
-  document.getElementById("box").style.width = "40%";
+  document.getElementById("box").style.width = "200px";
 }
