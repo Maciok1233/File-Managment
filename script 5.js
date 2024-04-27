@@ -1,6 +1,5 @@
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
   // true for mobile device
-  document.getElementById("header1").style.height = "140px";
   document.getElementById("main-button").innerHTML = "🔐";
   document.getElementById("exp").innerText = "";
   document.getElementById("exp").style.position = "absolute";
