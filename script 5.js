@@ -13,7 +13,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   document.getElementById("searchbar").setAttribute("size", "1");
   document.getElementById("phone-adjustment").style.height = "20px";
   document.getElementById("LOG-OUT").style.fontSize = "13px";
-  document.getElementById("LOG-OUT").style.top = "-10px";
+  document.getElementById("LOG-OUT").style.top = "-100px";
   document.getElementById("image").style.height = "34px";
   document.getElementById("box").style.width = "40%";
 }
