@@ -11,6 +11,6 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   document.getElementById("HOME").style.position = "absolute";
   document.getElementById("searchbar").setAttribute("size", "1");
   document.getElementById("phone-adjustment").style.height = "20px";
-  document.getElementById("LOG-OUT").style.fontSize = "10px";
+  document.getElementById("LOG-OUT").style.fontSize = "17px";
   document.getElementById("image").style.height = "30px";
 }
