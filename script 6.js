@@ -13,5 +13,9 @@ if (screenWidth < 1501 || screenHeight < 801) {
 else {
   document.getElementById("Mark1").innerText = "Private";
   document.getElementById("Mark2").innerText = "Private"; 
+  document.getElementById("ABOUT").innerText = "About";
+  document.getElementById("ABOUT").style.position = "relative";
+  document.getElementById("CONTACT").innerText = "Contact";
+  document.getElementById("CONTACT").style.position = "relative";
 }
 }, 100);
