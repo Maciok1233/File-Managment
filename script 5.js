@@ -22,3 +22,13 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   const boxes = document.querySelectorAll('#box');
   for (let i = 0; i < boxes.length; i++) { boxes[i].style.width = '320px'; }
  }
+
+setInterval(function() {
+let screenWidth = window.innerWidth;
+let screenHeight = window.innerHeight;
+
+if (screenWidth < 1501 || screenHeight < 801) {
+  document.getElementById("Mark1").innerText = "";
+  document.getElementById("Mark2").innerText = "";
+ }
+}, 100);
