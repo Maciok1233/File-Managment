@@ -143,6 +143,7 @@ font-family:sans-serif;
   rotate: -45deg;
   font-size: 250px;
   color: white;
+  z-index: -1;
 }
 
 #Mark2 {
@@ -152,4 +153,5 @@ font-family:sans-serif;
   rotate: -45deg;
   font-size: 250px;
   color: white;
+  z-index: -1;
 }
