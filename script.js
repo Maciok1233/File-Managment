@@ -18,6 +18,7 @@ function myFunction2() {
      document.getElementById('body1').style.overflow = "visible";   
      document.getElementById("main-button").innerHTML = "Files Unlocked 🔓";
   }
+  else if (password=="") || (password==" ") {}
   else {
       alert('Incorrect Password!');
       }
